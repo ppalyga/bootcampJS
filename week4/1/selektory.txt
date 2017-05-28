@@ -1,0 +1,14 @@
+- wszystkie elementy <div>, posiadaj¹ce zarówno klasê grid oraz klasê grid-12
+$('div.grid.grid12')
+
+- wszystkie elementy <a>, których atrybut href zaczyna siê na “http”, znajduj¹ce siê w elemencie o klasie nav
+$('nav a[href^="http:"]')
+
+- wszystkie elementy <input>, których typ to radio lub checkbox oraz dodatkowo nie s¹ aktualnie zaznaczone (checked)
+$('input:radio, input:checkbox').not(':checked);
+
+- wy³¹cznie pierwszy element <p>, który jest pusty (nie zawiera dzieci) oraz znajduje siê w elemencie <div> z identyfikatorem text
+$('div#text p:first:empty')
+
+- wszystkie elementy z klas¹ pagination-item, które nie s¹ elementem <span>
+$(':not(span).pagination-item')

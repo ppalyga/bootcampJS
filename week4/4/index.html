@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Praca z AJAX i JSON</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script id="tpl" type="text/x-handlebars-template">
+    {{#each people}}
+    <li>
+        <b>Imię i nazwisko:</b> {{name}} | <b>Nazwa użytkownika:</b> {{username}} | <b>Email:</b> {{email}} | <b>Telefon:</b> {{phone}}
+    </li>
+    {{/each}}
+    </script>
+    <button>Załaduj</button>
+    <div id="output">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+input {
+    position: absolute;
+    left: 150px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+}
+
+.error {
+    border: 1px solid red;
+}

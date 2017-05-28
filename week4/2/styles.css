@@ -1,0 +1,38 @@
+body {
+    background: #B7B6C1;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: right;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #464655;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+span {
+    text-align: right;
+    cursor: default;
+}
+
